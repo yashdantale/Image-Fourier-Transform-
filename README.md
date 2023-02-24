@@ -1,6 +1,8 @@
 # Image-Fourier-Transform-
 
 ### The app is built on Streamlit
+### Directly access the app by clicking this link - https://yashdantale-image-fourier-transform--app-z0w9m2.streamlit.app/
+
 This app allows users to visualize the Fourier transform of an uploaded image and reconstruct the original image from its Fourier spectrum. The app first converts the uploaded image to grayscale, resizes it, and normalizes the pixel values to be between -1 and 1. It then applies a 2D Fourier transform to the normalized image and plots the magnitude spectrum, which represents the frequencies present in the image. The user can also view the phase spectrum, which represents the relative phase of each frequency component. Finally, the app can reconstruct the original image from the Fourier spectrum by applying an inverse Fourier transform and normalizing the pixel values to be between 0 and 255.
 
 ## Technologies Used
